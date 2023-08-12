@@ -1,0 +1,54 @@
+.main {
+    height: 100vh;
+    margin: auto;
+    font-family: "raleway";
+    padding: 15px;
+    font-size: 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    background: #f7f7f7;
+}
+
+time {
+    border: 1px solid #f00;
+    font-weight: bold;
+    padding: 2.5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: black;
+    background: #fff;
+}
+
+#style {
+    padding: 5px;
+    border: 1px solid #c8c8c8;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: inset 0px 0 15px #e7e7e7;
+    box-shadow: inset 0px 0 15px #e7e7e7;
+}
+
+#output {
+    background: #fff;
+    padding: 60px 10px;
+    margin-bottom: 25px;
+}
+
+button {
+    background: rgb(0, 94, 160);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family: raleway;
+    margin: 10px 0;
+    border-bottom: 3px solid rgb(0, 48, 103);
+}
+
+button:active {
+    margin-top: 11px;
+    border-bottom: 1px solid rgb(43, 102, 170);
+}
